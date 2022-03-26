@@ -36,7 +36,7 @@ plot(fpx,fpy,'-k','linewidth',2)
 plot(x*1000,top1,'-m','linewidth',2)
 plot(x2*1000,top2,'-m','linewidth',2)
 ylim([-100 550]);
-legend('converging portion','diverging portion','flat plate','top plate');
+legend({'converging portion','diverging portion','flat plate','top plate'},'location','best','box','off');
 xlabel('x(mm)');
 ylabel('y(mm)');
 set(gca,'FontSize',16);box on;
